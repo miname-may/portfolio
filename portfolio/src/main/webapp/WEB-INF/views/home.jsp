@@ -26,25 +26,25 @@
 		</div>
 		<div class="tab-content">
 			<!-- Home -->
-		   	<div role="tabpanel" class="tab-pane fade in active" id="home">
+		   	<div role="tabpanel" class="tab-pane active" id="home">
 					<h1 class="typing-text"></h1>
 				<div id="footerDiv">
-					<p>CONTACT 010 4802 2176</p>
+					<p><a href="https://github.com/miname-may"><img id="myGit" alt="gitHub" src="./resources/images/github.png"></a> CONTACT 010 4802 2176</p>
 					<p>e-mail qwpo8329@gmail.com </p>
-					<a href="https://github.com/miname-may"><img alt="gitHub" src=""></a>
-				</div>
+					
+				</div> 
 		   	</div>
 		   	
 		   	<!-- About -->
-		   	<div role="tabpanel" class="tab-pane fade" id="about">
+		   	<div role="tabpanel" class="tab-pane" id="about">
 		   	</div>
 		   	
 		   	<!-- Skills -->
-	  		<div role="tabpanel" class="tab-pane fade" id="skills">
+	  		<div role="tabpanel" class="tab-pane" id="skills">
 	  		</div>
 	  		
 	  		<!-- Project -->
-			<div role="tabpanel" class="tab-pane fade" id="project">
+			<div role="tabpanel" class="tab-pane" id="project">
 			</div>
 		</div>
 	</div>
