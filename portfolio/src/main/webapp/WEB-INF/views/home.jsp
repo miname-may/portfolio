@@ -21,8 +21,8 @@
 	<div id="bodyDiv">
 		<div id="headerDiv">
 			<ul id="myTab" class="nav nav-tabs">
-				<li role="presentation" class="active"><a class="nav-a" href="#project" aria-controls="project" role="tab" data-toggle="tab" onclick="animateStart()">PROJECT</a></li>
-				<li role="presentation"><a class="nav-a" href="#about" aria-controls="about" role="tab" data-toggle="tab">ABOUT</a></li>
+				<li role="presentation"><a class="nav-a" href="#project" aria-controls="project" role="tab" data-toggle="tab" onclick="animateStart()">PROJECT</a></li>
+				<li role="presentation" class="active"><a class="nav-a" href="#about" aria-controls="about" role="tab" data-toggle="tab">ABOUT</a></li>
 				<li role="presentation"><a class="nav-a" href="#home" aria-controls="home" role="tab" data-toggle="tab">HOME</a></li>
 			</ul>
 		</div>
@@ -38,27 +38,27 @@
 		   	</div>
 		   	
 		   	<!-- About -->
-		   	<div role="tabpanel" class="tab-pane" id="about">
+		   	<div role="tabpanel" class="tab-pane active" id="about">
 		   	
+			   	<h1><strong>성장하는 개발자 최유정</strong></h1>
 		   		<div id="aboutImg">
-		   			<img alt="me" src="./resources/images/youjung.jpg">
+		   			<img alt="me" class="img-rounded" src="./resources/images/youjung.jpg">
 		   		</div>
 		   		<div id="aboutContent">
-			   		<h3>성장하는 개발자 최유정입니다.</h3>
-			   		<p>&nbsp;짧았지만 고등학교 시절 코딩을 배우며 내가 만든 프로그램을 누군가 사용한다는 것에 흥미를 느끼게 되었고 졸업 후 개발자라는 직업에 자연스레 관심을 갖게 되었습니다. 
+			   		<p>&nbsp;고등학교 시절 코딩을 배우며 내가 만든 프로그램을 누군가 사용한다는 것에 흥미를 느끼게 되었고 졸업 후 개발자라는 직업에 자연스레 관심을 갖게 되었습니다. 
 			   		고등학교 졸업, 비전공자라는 조건은 저에게 한계를 느끼게하는 것들이 아닌 다른 사람들보다 열심히 공부할 원동력이 되어주었습니다. 
 			   		처음엔 학원을 다니며 프로그래밍에 대한 기초를 쌓고 국비 기관을 찾아 전문직업교육을 받았습니다. 
 			   		또한 프로그래밍 예제 사이트를 통해 알고리즘에 대한 이해도를 높이고, 블로그 포스팅을 통해 복습을 하며 저의 역량을 키울 수 있도록 노력하고 있습니다.</p>
 			   		<br/>
-			   		<p>&nbsp;지금의 저는 '성장하는 개발자'입니다. 
+			   		<p>&nbsp;지금의 저는 <strong>'성장하는 개발자'</strong>입니다. 
 			   		그저 주어진 업무에 안주하는 것이 아닌 끊임없이 공부하여 성장하고 싶습니다. 
-			   		이를 통해 경력과 실력 모두를 갖추는 '잘하는 개발자'가 되고 싶습니다.</p>
+			   		이를 통해 경력과 실력 모두를 갖추는 <strong>'잘하는 개발자'</strong>가 되고 싶습니다.</p>
 		   		</div>
 		   		
 		   	</div>
 		   	
 		   	<!-- project -->
-	  		<div role="tabpanel" class="tab-pane active" id="project">
+	  		<div role="tabpanel" class="tab-pane" id="project">
 	  			<div class="skills">
 		  			<div>
 			  			<img class="line1 java" alt="java" src="./resources/images/java.png">

@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body{
 	font-family: 'Rubik', sans-serif !important;
+	background-color:#f8f8f1 !important; 
 }
 #bodyDiv{
 	display:grid;
@@ -78,8 +79,12 @@ ul{
 	width: 100%;
 	height: 100vh;
 	background-color: #f8f8f1;
-	font-size: 1.4em;
-	padding: 15%;
+	font-size: 1vw;
+	padding: 8% 15%;
+	text-align: center;
+}
+#about h1{
+	font-size: 50px !important;
 }
 #aboutImg{
 	float: left;
@@ -88,6 +93,7 @@ ul{
 	padding-left: 5%;
 	display: table;
 	margin: 2em auto;
+	text-align: left;
 }
     
 /* project panel*/

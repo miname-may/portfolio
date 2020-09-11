@@ -58,6 +58,14 @@ $(function() {
 	);
 });
 
+$(function(){
+	$('.sps .btn-warning').click(
+		function() {
+			alert('관리자 모드\n아이디 : may\n비밀번호 : 1111\n손님 모드\n아이디 : shin\n비밀번호 : 2222')
+		}
+	)
+})
+
 /*weather : java, spring-framework, html5, css3, javascript, jquery */
 $(function() {
 	$('.weather').hover( 
@@ -78,6 +86,13 @@ $(function() {
 		}
 	);
 });
+$(function(){
+	$('.weather .btn-warning').click(
+		function() {
+			alert('Geolocation API는 https에서만 작동하기 때문에\n개발자의 현위치를 기준으로 날씨가 나타납니다.')
+		}
+	)
+})
 
 /*studycafe : java, oracle */
 $(function() {
