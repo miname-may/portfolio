@@ -33,3 +33,62 @@ function animateStart() {
 		);
 	}
 }
+
+/*sps : java, spring-framework, html5, css3, javascript, jquery, mysql */
+$(function() {
+	$('.sps').hover( 
+			function() {
+				$( '.java' ).animate( {width: '11em', 'background-color': '#F2A950' }),
+				$( '.spring-framework').animate( {width: '11em', 'background-color': '#F2A950'}),
+				$( '.html5').animate( {width: '11em', 'background-color': '#F2A950'}),
+				$( '.css3').animate( {width: '11em', 'background-color': '#F2A950'}),
+				$( '.javascript').animate( {width: '11em', 'background-color': '#F2A950'}),
+				$( '.jquery').animate( {width: '11em', 'background-color': '#F2A950'}),
+				$( '.mysql').animate( {width: '11em', 'background-color': '#F2A950'})
+			}
+		,function() {
+			$( '.java' ).animate( {width: '10em', 'background-color': '#f8f8f1'}),
+			$( '.spring-framework').animate( {width: '10em', 'background-color': '#f8f8f1'}),
+			$( '.html5').animate( {width: '10em', 'background-color': '#f8f8f1'}),
+			$( '.css3').animate( {width: '10em', 'background-color': '#f8f8f1'}),
+			$( '.javascript').animate( {width: '10em', 'background-color': '#f8f8f1'}),
+			$( '.jquery').animate( {width: '10em', 'background-color': '#f8f8f1'}),
+			$( '.mysql').animate( {width: '10em', 'background-color': '#f8f8f1'})
+		}
+	);
+});
+
+/*weather : java, spring-framework, html5, css3, javascript, jquery */
+$(function() {
+	$('.weather').hover( 
+			function() {
+				$( '.java' ).animate( {width: '11em', 'background-color': '#F2A950' }),
+				$( '.spring-framework').animate( {width: '11em', 'background-color': '#F2A950'}),
+				$( '.html5').animate( {width: '11em', 'background-color': '#F2A950'}),
+				$( '.css3').animate( {width: '11em', 'background-color': '#F2A950'}),
+				$( '.javascript').animate( {width: '11em', 'background-color': '#F2A950'}),
+				$( '.jquery').animate( {width: '11em', 'background-color': '#F2A950'})			}
+		,function() {
+			$( '.java' ).animate( {width: '10em', 'background-color': '#f8f8f1'}),
+			$( '.spring-framework').animate( {width: '10em', 'background-color': '#f8f8f1'}),
+			$( '.html5').animate( {width: '10em', 'background-color': '#f8f8f1'}),
+			$( '.css3').animate( {width: '10em', 'background-color': '#f8f8f1'}),
+			$( '.javascript').animate( {width: '10em', 'background-color': '#f8f8f1'}),
+			$( '.jquery').animate( {width: '10em', 'background-color': '#f8f8f1'})
+		}
+	);
+});
+
+/*studycafe : java, oracle */
+$(function() {
+	$('.studycafe').hover( 
+			function() {
+				$( '.java' ).animate( {width: '11em', 'background-color': '#F2A950' }),
+				$( '.oracle').animate( {width: '11em', 'background-color': '#F2A950'})
+			}
+		,function() {
+			$( '.java' ).animate( {width: '10em', 'background-color': '#f8f8f1'}),
+			$( '.oracle').animate( {width: '10em', 'background-color': '#f8f8f1'})
+		}
+	);
+});

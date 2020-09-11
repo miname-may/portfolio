@@ -13,6 +13,9 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="./resources/js/home.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> 
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
 </head>
 <body>
 	<div id="bodyDiv">
@@ -56,29 +59,60 @@
 		   	
 		   	<!-- project -->
 	  		<div role="tabpanel" class="tab-pane active" id="project">
-	  			<div class="panels skills">
+	  			<div class="skills">
 		  			<div>
-			  			<img class="line1" alt="java" src="./resources/images/java.png">
-			  			<img class="line1" alt="python" src="./resources/images/python.png">
-			  			<img class="line1" alt="spring-framework" src="./resources/images/spring-framework.png">
+			  			<img class="line1 java" alt="java" src="./resources/images/java.png">
+			  			<img class="line1 python" alt="python" src="./resources/images/python.png">
+			  			<img class="line1 spring-framework" alt="spring-framework" src="./resources/images/spring-framework.png">
 		  			</div>
 		  			<div>
-			  			<img class="line2" alt="html5" src="./resources/images/html5.png">
-			  			<img class="line2" alt="css3" src="./resources/images/css3.png">
-			  			<img class="line2" alt="javascript" src="./resources/images/javascript.png">
-			  			<img class="line2" alt="jquery" src="./resources/images/jquery.png">
+			  			<img class="line2 html5" alt="html5" src="./resources/images/html5.png">
+			  			<img class="line2 css3" alt="css3" src="./resources/images/css3.png">
+			  			<img class="line2 javascript" alt="javascript" src="./resources/images/javascript.png">
+			  			<img class="line2 jquery" alt="jquery" src="./resources/images/jquery.png">
 		  			</div>
 		  			<div>
-			  			<img class="line3" alt="mysql" src="./resources/images/mysql.png">
-			  			<img class="line3" alt="oracle" src="./resources/images/oracle.png">
+			  			<img class="line3 mysql" alt="mysql" src="./resources/images/mysql.png">
+			  			<img class="line3 oracle" alt="oracle" src="./resources/images/oracle.png">
 		  			</div>
 		  			<div>
-			  			<img class="line4" alt="github" src="./resources/images/github.png">
-			  			<img class="line4" alt="aws" src="./resources/images/aws.png">
+			  			<img class="line4 github" alt="github" src="./resources/images/github.png">
+			  			<img class="line4 aws" alt="aws" src="./resources/images/aws.png">
 		  			</div>
 	  			</div>
-	  			<div class="panels project">
-	  			
+	  			<div class="project">
+	  				<div class="row">
+					    <div class="thumbnail sps" >
+					      <img src="./resources/images/sps.png" alt="spsImg">
+					      <div class="caption">
+					        <h4>SevenPrincess Shop</h4>
+					        <p>관리자의 시점으로 판매 목록과 매출 그래프를 한 눈에 볼 수 있는 여성 의류 쇼핑몰</p>
+					        <p><a class="btn" href="https://github.com/miname-may/SPS"><img alt="github" src="./resources/images/github.png"></a>
+					        <a href="http://3.34.46.138/SevenPrincessShop/" class="btn btn-warning" role="button">go &gt;</a></p>
+					      </div>
+					    </div>
+					</div>
+	  				<div class="row">
+					    <div class="thumbnail weather">
+					      <img src="./resources/images/weather.png" alt="weatherImg">
+					      <div class="caption">
+					        <h4>오늘의 날씨</h4>
+					        <p>사용자의 위치를 기반으로 날씨를 알아보기</p>
+					        <p><a class="btn" href="https://github.com/miname-may/weather"><img alt="github" src="./resources/images/github.png"></a>
+					        <a href="http://3.34.46.138/weather/" class="btn btn-warning" role="button">go &gt;</a></p>
+					      </div>
+					  </div>
+					</div>
+	  				<div class="row">
+					    <div class="thumbnail studycafe">
+					      <img src="./resources/images/StudyCafe.png" alt="studyImg">
+					      <div class="caption">
+					        <h4>코리아IT스터디카페</h4>
+					        <p>JAVA GUI이를 이용한 스터디 카페</p>
+					        <p><a class="btn" href="https://github.com/miname-may/studyCafe"><img alt="github" src="./resources/images/github.png"></a></p>
+					      </div>
+					  </div>
+					</div>
 	  			</div>
 	  		</div>
 		</div>

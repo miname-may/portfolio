@@ -95,24 +95,46 @@ ul{
 	width: 100%;
 	height: 100vh;
 	background-color: #f8f8f1;
-	padding: 7%;
+	padding: 4%;
+	text-align: center;
+	
 }
 
-#project>.panel{
-	width: 50%;
-}
 .skills{
 	float: left;
+	width: 45%;
 }
-.project{
-	float: right;
-}
-
-#project img{
+.skills img{
 	width: 10em;
 	border-radius: 30px;
 	border: 0.4em solid #F2A950;
 	padding: 0.3em;
 	margin: 1.3em;
 }
+.project{
+	float: right;
+	width: 55%;
+}
+.project img{
+	border-radius: 30px;
+}
+.project p img{
+	margin-right: 0.3em !important;
+	width: 3em;
+}
+.thumbnail{
+	border-radius: 30px !important;
+	border: 0.4em solid #F2A950 !important;
+	width: 19em;
+	margin: 0 2em;
+    height: 30em;
+    background-color: #f8f8f1 !important;
+}
+.row{
+	float: left;
+	margin-top: 20vh;/* 프로젝트 추가 시 변경 */
+}
+
+
+
     
